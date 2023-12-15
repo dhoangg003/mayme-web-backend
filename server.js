@@ -5,7 +5,7 @@ import handleErrorMdw from './middlewares/handleError.mdw.js';
 import cors from 'cors';
 import appRouter from './routes/index.js';
 
-const whiteList = ['http://localhost:3001'];
+const whiteList = ['http://localhost:3001','https://mayme-frontend-1fzh.onrender.com'];
 
 const corsOptions = {
   origin: (origin, callback) => {

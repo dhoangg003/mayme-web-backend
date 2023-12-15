@@ -13,7 +13,7 @@ router.post(
 );
 
 router.get("/menu", authMdw, menuController.getDish);
-router.delete("/menu/:id", authMdw, menuController.deleteDish);
+router.delete("/menuw", authMdw, menuController.deleteDish);
 router.put(
   "/menu/:id",
   authMdw,
